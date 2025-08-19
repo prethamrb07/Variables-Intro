@@ -48,9 +48,10 @@ class Main {
   boolean attendance = true;
   boolean open = false;
 
-  System.out.print(grade);
+  System.out.println(grade);
+  System.out.println("4 x 4 = " + 16);
 
-
+  
     //MATH TIME!
 
     //What are the math operators that we can use?
@@ -62,13 +63,27 @@ class Main {
 
     //Odd integers from 1 to 100, inclusive of both
 
-
+    for (int number = 1; number <= 100; number++){
+      if (number % 2 == 1){
+        System.out.println(number);
+      }
+    }
 
     //All multiples of 3 from 1 to 100
-
+    for (int i = 1; i <= 100; i++){
+      if (i % 3 == 0){
+        System.out.println(i);
+      }
+    }
 
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+    for (int a = 0; a >= 1000; a++){
+      if (a %  == 0){
+        System.out.println(i);
+      }
+    }
   }
 }
+
