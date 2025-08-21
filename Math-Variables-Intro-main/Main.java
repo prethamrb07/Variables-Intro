@@ -65,25 +65,26 @@ class Main {
 
     for (int number = 1; number <= 100; number++){
       if (number % 2 == 1){
-        System.out.println(number);
+        System.out.print(number+", ");
       }
     }
-
+System.out.println("");
+System.out.println("");
     //All multiples of 3 from 1 to 100
     for (int i = 1; i <= 100; i++){
       if (i % 3 == 0){
-        System.out.println(i);
+        System.out.print(i+", ");
       }
     }
-
+System.out.println("");
+System.out.println("");
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
-    for (int a = 0; a >= 1000; a++){
-      if (a %  == 0){
-        System.out.println(i);
+    for (int a = 1000; a >= 0; a--){
+      if (a % 10 == 0){
+        System.out.print(a + "-");
       }
     }
   }
 }
-
